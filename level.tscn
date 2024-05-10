@@ -1,0 +1,458 @@
+[gd_scene load_steps=5 format=3 uid="uid://blrs6sqvfmgxo"]
+
+[ext_resource type="PackedScene" uid="uid://b1qq68a0b0ja3" path="res://player.tscn" id="1_h2gto"]
+[ext_resource type="PackedScene" uid="uid://cblv0nh1vmicj" path="res://cursor.tscn" id="1_vfc1x"]
+[ext_resource type="PackedScene" path="res://camera_2d.tscn" id="2_tokar"]
+[ext_resource type="PackedScene" uid="uid://bgqub0gmmyjox" path="res://mob.tscn" id="3_bw444"]
+
+[node name="level" type="Node2D"]
+
+[node name="Cursor" parent="." instance=ExtResource("1_vfc1x")]
+
+[node name="player" parent="." instance=ExtResource("1_h2gto")]
+position = Vector2(551, 562)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." groups=["walls"]]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(51, 34, 19, 636, 1119, 630, 1107, 41, 27, 29, -915, -552, 2924, -606, 2883, 1571, -1315, 1670, -960, -678)
+
+[node name="Camera2D" parent="." instance=ExtResource("2_tokar")]
+position = Vector2(557, 301)
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="CharacterBody2D" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D2" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D3" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D4" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D5" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D6" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D7" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D8" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D9" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D10" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D11" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D12" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D13" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D14" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D15" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D16" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D17" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D18" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D19" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D20" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D21" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D22" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D23" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D24" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D25" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D26" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D27" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D28" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D29" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D30" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D31" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D32" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D33" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D34" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D35" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D36" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D37" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D38" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D39" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D40" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D41" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D42" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D43" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D44" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D45" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D46" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D47" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D48" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D49" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D50" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D51" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D52" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D53" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D54" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D55" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D56" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D57" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D58" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D59" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D60" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D61" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D62" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D63" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D64" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D65" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D66" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D67" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D68" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D69" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D70" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D71" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D72" parent="Node2D" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="Node2D2" type="Node2D" parent="."]
+position = Vector2(403, 2557)
+
+[node name="CharacterBody2D" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D2" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D3" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D4" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D5" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D6" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D7" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D8" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D9" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D10" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D11" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D12" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D13" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D14" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D15" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D16" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D17" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D18" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D19" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D20" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D21" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D22" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D23" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D24" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D25" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D26" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D27" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D28" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D29" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D30" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D31" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D32" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D33" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D34" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D35" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D36" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D37" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D38" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D39" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D40" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D41" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D42" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D43" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D44" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D45" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D46" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D47" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D48" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D49" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D50" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D51" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D52" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D53" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D54" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D55" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D56" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D57" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D58" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D59" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D60" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D61" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D62" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D63" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D64" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D65" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D66" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D67" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D68" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D69" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D70" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D71" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)
+
+[node name="CharacterBody2D72" parent="Node2D2" instance=ExtResource("3_bw444")]
+position = Vector2(227, -615)

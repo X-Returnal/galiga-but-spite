@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://sixurief3pur"]
+
+[ext_resource type="Script" path="res://spawner.gd" id="1_1qls3"]
+[ext_resource type="PackedScene" uid="uid://bgqub0gmmyjox" path="res://mob.tscn" id="2_nfla1"]
+
+[node name="spawner" type="Marker2D" groups=["spawner"]]
+script = ExtResource("1_1qls3")
+unit_spawn = ExtResource("2_nfla1")
+unit_value = 3
+limit_spawn = 1

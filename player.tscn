@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1qq68a0b0ja3"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_nd0xv"]
+[ext_resource type="PackedScene" path="res://bullet.tscn" id="2_cssyg"]
+
+[node name="player" type="CharacterBody2D" groups=["player"]]
+collision_layer = 3
+collision_mask = 3
+motion_mode = 1
+script = ExtResource("1_nd0xv")
+Bullet = ExtResource("2_cssyg")
+
+[node name="collision" type="CollisionPolygon2D" parent="."]
+build_mode = 1
+polygon = PackedVector2Array(4, 1, 1, 0, 0, 2, -1, 0, -4, 1, 0, -7)
+
+[node name="barrel" type="Marker2D" parent="."]
+position = Vector2(0, -2)
+rotation = -1.57079

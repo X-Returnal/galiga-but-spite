@@ -1,0 +1,7 @@
+res://level.tscn
+res://mob.tscn
+res://cursor.tscn
+res://player.tscn
+res://spawner.tscn
+res://mobbing.gd
+res://player.gd
